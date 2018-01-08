@@ -1,8 +1,8 @@
-This is a spring-boot gradle based project. In order to run gradle is required.
-In order to start the application issue gradle clean bootRun.
-An http server listening to 8080 will be up and running.
+This is a spring-boot gradle based project. In order to run, gradle 4 is required.
+In order to start the application issue 'gradle clean bootRun'.
+An http server listening to http://localhost:8080 will be up and running.
 
-In order to execute the requests, the project is package with swagger ui.
+In order to execute the requests, the project is packaged with swagger ui.
 To access swagger ui use the http://localhost:8080/swagger-ui.html url.
 
 Post requests for navigation using the payload specified can be issued at the http://localhost:8080/robot/navigate url.
