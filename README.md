@@ -1,6 +1,6 @@
 This is a spring-boot gradle based project. In order to run, gradle 4 is required.
 In order to start the application issue 'gradle clean bootRun'.
-An http server listening to http://localhost:8080 will be up and running.
+A http server listening to http://localhost:8080 will be up and running.
 
 In order to execute the requests, the project is packaged with swagger ui.
 To access swagger ui use the http://localhost:8080/swagger-ui.html url.
@@ -18,3 +18,4 @@ In order to connect to the database currently running in memory you have to spec
 
 An extra controller is provided in order to display the history of the navigation requests and the navigation responses.
 
+Unit tests are implemented for the Navigation Engine and the rest api.
